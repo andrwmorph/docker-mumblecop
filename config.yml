@@ -1,0 +1,21 @@
+username: Mumblecop
+password: SERVERPASSWORD
+address: SERVERADDRESS
+port: SERVERPORT
+triggers: ['mumblecop', 'mc', 'mc', 'mb']
+comment: :text
+comment_text: 'I am a robot beep boop'
+initial-volume: 5
+use-mpd: true
+fifo-pipe-location: '/tmp/mpd.fifo'
+mpd-port: 6600
+mpd-address: localhost
+plugin-update-rate: 0.1
+default-plugin-condition: :all
+verbose-chat-log: false
+multithread-commands: true
+mpd-callbacks: true
+debug: false
+plugins:
+  volume:
+    min_volume: 5 
